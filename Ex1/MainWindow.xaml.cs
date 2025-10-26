@@ -19,20 +19,33 @@ public partial class MainWindow : Window
         {
             var processStartInfo = new ProcessStartInfo
             {
-                FileName = "notepad.exe",
-                UseShellExecute = true
+                FileName = "Notepad.exe",
+                UseShellExecute = false
             };
 
             var process = Process.Start(processStartInfo);
-            
+
             await Task.Delay(3000);
 
             var realProcess = Process.GetProcessesByName("Notepad")[0];
+
             realProcess.Kill();
+
+            await StatusText.Dispatcher.InvokeAsync(() => StatusText.Text = "Процес завершён");
         }
         catch (Exception ex)
         {
-            StatusText.Dispatcher.Invoke(() => StatusText.Text = $"Ошибка: {ex.Message}");
+            await StatusText.Dispatcher.InvokeAsync(() => StatusText.Text = $"Ошибка: {ex.Message}");
         }
+    }
+
+    private void UpdateUI(object sender, RoutedEventArgs e)
+    {
+        var thread = new Thread(() =>
+        {
+            Dispatcher.Invoke(() => StatusText.Text = "Данная строка обновлена из фонового потока");
+        });
+
+        thread.Start();
     }
 }

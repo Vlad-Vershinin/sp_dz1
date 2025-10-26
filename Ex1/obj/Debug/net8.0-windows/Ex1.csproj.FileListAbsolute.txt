@@ -18,3 +18,4 @@ F:\code\cs\dz\Ex1\obj\Debug\net8.0-windows\refint\Ex1.dll
 F:\code\cs\dz\Ex1\obj\Debug\net8.0-windows\Ex1.pdb
 F:\code\cs\dz\Ex1\obj\Debug\net8.0-windows\Ex1.genruntimeconfig.cache
 F:\code\cs\dz\Ex1\obj\Debug\net8.0-windows\ref\Ex1.dll
+F:\code\cs\dz\Ex1\obj\Debug\net8.0-windows\Ex1.sourcelink.json

@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A0B12B50-BF84-41D5-B889-20ED373E4BD2}|Ex1\\Ex1.csproj|f:\\code\\cs\\dz\\ex1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A0B12B50-BF84-41D5-B889-20ED373E4BD2}|Ex1\\Ex1.csproj|solutionrelative:ex1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E30A6D5A-1116-4F2D-9FAF-246F3160EF97}|Ex2\\Ex2.csproj|f:\\code\\cs\\dz\\ex2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E30A6D5A-1116-4F2D-9FAF-246F3160EF97}|Ex2\\Ex2.csproj|solutionrelative:ex2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +31,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "F:\\code\\cs\\dz\\Ex2\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Ex2\\MainWindow.xaml.cs",
-              "ToolTip": "F:\\code\\cs\\dz\\Ex2\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Ex2\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T10:43:11.87Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,7 +52,7 @@
               "RelativeDocumentMoniker": "Ex1\\MainWindow.xaml.cs",
               "ToolTip": "F:\\code\\cs\\dz\\Ex1\\MainWindow.xaml.cs",
               "RelativeToolTip": "Ex1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwDAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T15:51:20.393Z",
               "EditorCaption": ""
